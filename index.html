@@ -13,14 +13,25 @@
 
 <body>
 	<div id = "particles-js"></div>
-	<div class = "LandingPage">
 		<header class = "top">
 			<h1> Jayendra Jog </h1>
 		</header>
 		<section class = "about">
-			<h2> About me </h2>
+			<h1> About me </h1>
+			<div class = "row">
+				<div class = "col-md-1"></div>
+				<div class = "col-md-3">
+					<p>Hello!<br>My name is Jay, and I'm currently studying Computer Science at UCLA.</p>
+				</div>
+				<div class = "col-md-8" id = "chartDiv">
+					<canvas id="myChart"></canvas>
+				</div>	
+				</div>
+			</div>
 		</section>
-	</div>
+		<section class = "portfolio">
+			<h2> Portfolio </h2>
+		</section>
 
 
 	 <!-- jQuery  -->
@@ -30,6 +41,8 @@
     <!-- Particles javascript -->
 	<script src = "js/particles.min.js"></script>
 	<script src = "js/app.js"></script>
+	<!-- Charts javascript -->
+	<script src = "js/Chart.min.js"></script>
 	<!-- My javascript -->
 	<script src = "js/script.js"></script>
 </body>
