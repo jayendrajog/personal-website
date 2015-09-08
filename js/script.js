@@ -16,18 +16,18 @@ window.onload = function(){
         ]
     };
     var options = {
-    angleLineColor : "white",
-    pointLabelFontSize : 15,
-    pointLabelFontColor : "white",
-    scaleLineColor : "white",
-    responsive: true
+        angleLineColor : "white",
+        pointLabelFontSize : 15,
+        pointLabelFontColor : "white",
+        scaleLineColor : "white",
+        responsive: true
     };
-    new Chart(ctx).Radar(data, options);
+    var theChart = new Chart(ctx).Radar(data, options);
 };
 
 $(function(){
         $(".element").typed({
-            strings: ["Hello World!", "My name is Jay", "I'm currently studying Computer Science at UCLA", "Jayendra Jog"],
+            strings: ["Student^1000", "Entrepreneur^1000", "Leader^1000", "Software Developer"],
             typeSpeed: 0
         });
     });
