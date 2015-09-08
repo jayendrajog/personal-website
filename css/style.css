@@ -24,7 +24,7 @@ h1,h2, h3, h4{
   padding-bottom: 25%;
   z-index: 1;
   color: white;
-  pointer-events: none;
+  pointer-events: auto;
 }
 
 .btn{
@@ -34,7 +34,8 @@ h1,h2, h3, h4{
 }
 
 .btn:hover{
-  background: blue;
+  background: #1d88bb;
+  color:white;
 }
 
 hr{

@@ -32,3 +32,7 @@ $(function(){
         });
     });
 
+$('#toExp').on('click', function(){
+    $("html body").animate({"scrollTop":$('#exp').offset().top}, 500);
+    return false;
+});
