@@ -27,7 +27,7 @@ window.onload = function(){
 
 $(function(){
         $(".element").typed({
-            strings: ["Student^1000", "Entrepreneur^1000", "Leader^1000", "Software Developer"],
+            strings: ["\"There are 10 types of people in the world...^150 those who understand binary and those who don't\""],
             typeSpeed: 0
         });
     });
