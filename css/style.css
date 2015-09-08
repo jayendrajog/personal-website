@@ -4,10 +4,11 @@ body{
   overflow-x: hidden;
   margin:0 ;
   padding: 0;
+  font-family: sans-serif;
 }
 
 h1{
-  font-size: 350%;
+  font-size: 300%;
 }
 
 h1,h2, h3, h4{
@@ -20,11 +21,12 @@ h1,h2, h3, h4{
 
 .top{
   position: relative;
-  padding-top: 25%;
-  padding-bottom: 25%;
+  padding-top: 22%;
+  padding-bottom: 22%;
   z-index: 1;
   color: white;
   pointer-events: auto;
+  height: 100vh;
 }
 
 .btn{
@@ -36,6 +38,11 @@ h1,h2, h3, h4{
 .btn:hover{
   background: #1d88bb;
   color:white;
+}
+
+#toExp{
+  display: none;
+  padding: 10px;
 }
 
 hr{
@@ -125,8 +132,23 @@ b{
 }
 
 #SAP{
-  width: 40%;
+  width: 25%;
   height: auto;
+}
+
+@media(min-width: 992px)
+{
+  #SAP{
+  width: 40%;
+  }
+}
+
+@media(max-width: 991px)
+{
+  .leftcol{
+    text-align: center;
+    margin: 5vw;
+    }
 }
 
 #ESUC{
@@ -146,9 +168,50 @@ b{
 }
 
 
+.sudoku{
+  position: relative;
+  width: 40vw;
+  height: 40vh;
+  background-color: #20d159;
+  margin: 5vh;
+}
 
-#BruinTime{
-  width: 120%;
+.bruintime{
+  position: relative;
+  width: 40vw;
+  height: 40vh;
+  background-color: #16688f;
+  margin: 5vh;
+}
+
+.kappstone{
+  position: relative;
+  width: 40vw;
+  height: 40vh;
+  background-color: #d1b220;
+  margin: 5vh;
+}
+
+.calc{
+   position: relative;
+  width: 40vw;
+  height: 40vh;
+  background-color: #d15920;
+  margin: 5vh;
+
+}
+
+@media(max-width: 600px)
+{
+   .portpart{
+     width: 80vw;
+     height: 30vh;
+   }
+
+   .kappstone{
+    margin-top: 0;
+   }
+
 }
 
 @media (max-width: 1000px)

@@ -1,3 +1,8 @@
+
+$(document).ready(function(){
+    $('#toExp').hide().delay(4600).fadeIn(2000);
+});
+
 window.onload = function(){
     var ctx = document.getElementById("myChart").getContext("2d");
     var data = {
@@ -31,6 +36,7 @@ $(function(){
             typeSpeed: 1
         });
     });
+
 
 $('#toExp').on('click', function(){
     $("html body").animate({"scrollTop":$('#exp').offset().top}, 500);
