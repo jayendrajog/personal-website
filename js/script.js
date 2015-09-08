@@ -5,7 +5,7 @@ window.onload = function(){
         datasets: [
             {
                 label: "Skills",
-                fillColor: "rgba(50, 132, 191, .3)",
+                fillColor: "rgba(220, 220, 220, .3)",
                 strokeColor: "rgba(220,220,220,1)",
                 pointColor: "rgba(220,220,220,1)",
                 pointStrokeColor: "#fff",
@@ -27,7 +27,8 @@ window.onload = function(){
 
 $(function(){
         $(".element").typed({
-            strings: ["\"There are 10 types of people in the world...^150 those who understand binary and those who don't\""],
-            typeSpeed: 0
+            strings: ["\"There are 10 types of people in the world...^500 those who understand binary and those who don't\""],
+            typeSpeed: 1
         });
     });
+

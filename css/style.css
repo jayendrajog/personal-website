@@ -1,23 +1,21 @@
 body{
-  background-color: #252839;
+  background-color: #2098D1;
   overflow-y: scroll;
   overflow-x: hidden;
   margin:0 ;
   padding: 0;
 }
 
+h1{
+  font-size: 350%;
+}
+
 h1,h2, h3, h4{
   text-align: center;
 }
 
-#particles-js{
-  top: 0;
-  position: absolute;
-  background-color: #252839;
-  width: 100%;
-  height: 99%;
-  z-index: 0;
-  pointer-events:auto;
+.glyphicon-map-marker{
+  color: #FF4D4D;
 }
 
 .top{
@@ -27,6 +25,16 @@ h1,h2, h3, h4{
   z-index: 1;
   color: white;
   pointer-events: none;
+}
+
+.btn{
+  background-color:#2098D1 ;
+  width: 15%;
+  color: white;
+}
+
+.btn:hover{
+  background: blue;
 }
 
 hr{
@@ -61,13 +69,36 @@ hr{
     100% { opacity:1; }
 }
 
-.about{
+.experience{
   position: relative;
   padding-top: 5%;
   padding-bottom: 5%;
-  background-color:#677077;
+  background-color:white;
   pointer-events:auto;
   z-index: 1;
+  
+}
+
+.jobTitle{
+  font-size: 150%;
+}
+
+.experience h1, .jobTitle, .job{
+  color: #2098D1;
+}
+
+b{
+  font-size: 110%;
+}
+
+.skills{
+  position: relative;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  background-color:#2098D1;
+  pointer-events:auto;
+  z-index: 1;
+  color: white;
 }
 
 .about p{
@@ -83,14 +114,6 @@ hr{
   z-index: 2;
 }
 
-.experience{
-  position: relative;
-  padding-top: 5%;
-  padding-bottom: 5%;
-  background-color:#b5b5b7;
-  pointer-events:auto;
-  z-index: 1;
-}
 
 .experience hr{
   width: 70%;
@@ -113,10 +136,14 @@ hr{
 .portfolio{
   padding-top: 5%;
   padding-bottom: 5%;
-  background-color:#ECDFBD;
+  background-color:white;
   pointer-events:auto;
   z-index: 1;
 }
+.portfolio h1, .portfolio b, .portfolio h2{
+  color: #2098D1;
+}
+
 
 
 #BruinTime{
