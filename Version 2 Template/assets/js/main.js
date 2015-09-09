@@ -1,23 +1,11 @@
-
-$(function(){
-        $(".element").typed({
-            strings: ["\"There are 10 types of people in the world...^500 those who understand binary and those who don't\""],
-            typeSpeed: 1
-        });
-    });
-
-$('#toExp').on('click', function(){
-    $("html body").animate({"scrollTop":$('#theTop').offset().top}, 500);
-});
-
 $(document).ready(function() {
 
-    $('#toExp').hide().delay(5000).fadeIn(1000);
     /*======= Skillset *=======*/
     
     $('.level-bar-inner').css('width', '0');
     
     $(window).on('load', function() {
+        $('#toExp').hide().delay(4600).fadeIn('slow');
 
         $('.level-bar-inner').each(function() {
         
@@ -55,4 +43,15 @@ $(document).ready(function() {
     GitHubActivity.feed({ username: "jayendrajog", selector: "#ghfeed" });
 
 
+});
+
+$(function(){
+        $(".element").typed({
+            strings: ["\"There are 10 types of people in the world...^500 those who understand binary and those who don't\""],
+            typeSpeed: 1
+        });
+    });
+
+$('#toExp').on('click', function(){
+    $("html body").animate({"scrollTop":$('#theTop').offset().top}, 500);
 });
